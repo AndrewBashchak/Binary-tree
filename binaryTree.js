@@ -147,9 +147,7 @@ console.log("All elements:", bst.outputElements());
 console.log("Min:", bst.min());
 console.log("Max:", bst.max());
 console.log("Count:", bst.count());
-
-const value = 40;
-console.log(`Is there ${value}?`, bst.contains(value));
+console.log("Is there 40?", bst.contains(40));
 
 bst.remove(50);
 console.log("After removal:", bst.outputElements());
